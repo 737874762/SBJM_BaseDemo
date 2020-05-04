@@ -1,0 +1,314 @@
+2020-05-04 11:26:39.361 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Starting BasedemoApplication on LAPTOP-AJFJDPFB with PID 36464 (H:\代码备份\basedemo\target\classes started by Chkl in H:\代码备份\basedemo)
+2020-05-04 11:26:39.364 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - The following profiles are active: dev
+2020-05-04 11:26:39.469 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-04 11:26:39.470 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-04 11:26:42.175 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3036 (http)
+2020-05-04 11:26:42.184 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3036"]
+2020-05-04 11:26:42.185 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-04 11:26:42.185 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-04 11:26:42.188 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-04 11:26:42.188 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-04 11:26:42.188 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-04 11:26:42.188 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-04 11:26:43.253 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-04 11:26:43.651 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-04 11:26:43.652 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4182 ms
+2020-05-04 11:26:45.434 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 11:26:45.531 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 11:26:45.580 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-04 11:26:45.834 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-04 11:26:45.851 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-04 11:26:45.905 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-04 11:26:45.930 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3036"]
+2020-05-04 11:26:45.960 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3036 (http) with context path ''
+2020-05-04 11:26:45.962 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Started BasedemoApplication in 7.902 seconds (JVM running for 9.921)
+2020-05-04 11:26:52.346 [http-nio-3036-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-04 11:26:52.346 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-04 11:26:52.354 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-05-04 11:27:18.749 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Starting BasedemoApplication on LAPTOP-AJFJDPFB with PID 16080 (H:\代码备份\basedemo\target\classes started by Chkl in H:\代码备份\basedemo)
+2020-05-04 11:27:18.751 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - The following profiles are active: dev
+2020-05-04 11:27:18.802 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-04 11:27:18.802 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-04 11:27:20.355 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3036 (http)
+2020-05-04 11:27:20.363 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3036"]
+2020-05-04 11:27:20.364 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-04 11:27:20.364 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-04 11:27:20.366 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-04 11:27:20.366 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-04 11:27:20.366 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-04 11:27:20.366 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-04 11:27:21.422 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-04 11:27:21.559 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-04 11:27:21.560 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2758 ms
+2020-05-04 11:27:22.680 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 11:27:22.772 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 11:27:22.796 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-04 11:27:22.950 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-04 11:27:22.963 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-04 11:27:22.995 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-04 11:27:23.349 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3036"]
+2020-05-04 11:27:23.376 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3036 (http) with context path ''
+2020-05-04 11:27:23.378 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Started BasedemoApplication in 5.283 seconds (JVM running for 6.496)
+2020-05-04 11:27:28.131 [http-nio-3036-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-04 11:27:28.131 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-04 11:27:28.138 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-05-04 11:28:07.788 [http-nio-3036-exec-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-04 11:29:17.037 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Starting BasedemoApplication on LAPTOP-AJFJDPFB with PID 37532 (H:\代码备份\basedemo\target\classes started by Chkl in H:\代码备份\basedemo)
+2020-05-04 11:29:17.039 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - The following profiles are active: dev
+2020-05-04 11:29:17.138 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-04 11:29:17.138 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-04 11:29:18.599 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3036 (http)
+2020-05-04 11:29:18.608 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3036"]
+2020-05-04 11:29:18.608 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-04 11:29:18.608 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-04 11:29:18.610 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-04 11:29:18.611 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-04 11:29:18.611 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-04 11:29:18.611 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-04 11:29:19.670 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-04 11:29:19.809 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-04 11:29:19.809 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2671 ms
+2020-05-04 11:29:20.930 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 11:29:21.013 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 11:29:21.038 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-04 11:29:21.306 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-04 11:29:21.317 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-04 11:29:21.348 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-04 11:29:21.483 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3036"]
+2020-05-04 11:29:21.512 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3036 (http) with context path ''
+2020-05-04 11:29:21.517 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Started BasedemoApplication in 5.109 seconds (JVM running for 6.31)
+2020-05-04 11:29:47.522 [http-nio-3036-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-04 11:29:47.522 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-04 11:29:47.532 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-05-04 11:29:47.677 [http-nio-3036-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-04 11:30:38.391 [Thread-15] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-04 11:30:38.398 [Thread-15] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-05-04 11:30:38.763 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Starting BasedemoApplication on LAPTOP-AJFJDPFB with PID 37532 (H:\代码备份\basedemo\target\classes started by Chkl in H:\代码备份\basedemo)
+2020-05-04 11:30:38.763 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - The following profiles are active: dev
+2020-05-04 11:30:39.521 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3036 (http)
+2020-05-04 11:30:39.522 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3036"]
+2020-05-04 11:30:39.522 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-04 11:30:39.523 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-04 11:30:39.523 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-04 11:30:39.523 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-04 11:30:39.523 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-04 11:30:39.524 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-04 11:30:39.524 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-04 11:30:39.564 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-04 11:30:39.564 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 799 ms
+2020-05-04 11:30:40.009 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 11:30:40.084 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 11:30:40.092 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-04 11:30:40.197 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-04 11:30:40.198 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-04 11:30:40.209 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-04 11:30:40.236 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3036"]
+2020-05-04 11:30:40.245 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3036 (http) with context path ''
+2020-05-04 11:30:40.246 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Started BasedemoApplication in 1.513 seconds (JVM running for 85.039)
+2020-05-04 11:30:40.247 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-04 11:32:41.176 [Thread-24] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-04 11:32:41.559 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Starting BasedemoApplication on LAPTOP-AJFJDPFB with PID 37532 (H:\代码备份\basedemo\target\classes started by Chkl in H:\代码备份\basedemo)
+2020-05-04 11:32:41.559 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - The following profiles are active: dev
+2020-05-04 11:32:42.107 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3036 (http)
+2020-05-04 11:32:42.108 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3036"]
+2020-05-04 11:32:42.108 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-04 11:32:42.109 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-04 11:32:42.109 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-04 11:32:42.109 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-04 11:32:42.110 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-04 11:32:42.110 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-04 11:32:42.110 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-04 11:32:42.150 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-04 11:32:42.150 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 589 ms
+2020-05-04 11:32:42.519 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 11:32:42.553 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 11:32:42.556 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-04 11:32:42.617 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-04 11:32:42.618 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-04 11:32:42.623 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-04 11:32:42.647 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3036"]
+2020-05-04 11:32:42.657 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3036 (http) with context path ''
+2020-05-04 11:32:42.657 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Started BasedemoApplication in 1.126 seconds (JVM running for 207.45)
+2020-05-04 11:32:42.659 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-04 11:33:58.955 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Starting BasedemoApplication on LAPTOP-AJFJDPFB with PID 26724 (H:\代码备份\basedemo\target\classes started by Chkl in H:\代码备份\basedemo)
+2020-05-04 11:33:58.958 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - The following profiles are active: dev
+2020-05-04 11:33:59.043 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-04 11:33:59.044 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-04 11:34:00.525 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3036 (http)
+2020-05-04 11:34:00.534 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3036"]
+2020-05-04 11:34:00.534 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-04 11:34:00.535 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-04 11:34:00.536 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-04 11:34:00.537 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-04 11:34:00.537 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-04 11:34:00.537 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-04 11:34:01.601 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-04 11:34:01.748 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-04 11:34:01.749 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2705 ms
+2020-05-04 11:34:02.881 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 11:34:02.979 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 11:34:03.005 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-04 11:34:03.153 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-04 11:34:03.166 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-04 11:34:03.198 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-04 11:34:03.338 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3036"]
+2020-05-04 11:34:03.366 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3036 (http) with context path ''
+2020-05-04 11:34:03.369 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Started BasedemoApplication in 4.926 seconds (JVM running for 6.042)
+2020-05-04 11:34:08.782 [http-nio-3036-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-04 11:34:08.783 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-04 11:34:08.792 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-05-04 11:34:17.524 [http-nio-3036-exec-7] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-04 13:47:00.428 [Thread-15] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-04 13:47:00.430 [Thread-15] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-05-04 13:47:00.783 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Starting BasedemoApplication on LAPTOP-AJFJDPFB with PID 26724 (H:\代码备份\basedemo\target\classes started by Chkl in H:\代码备份\basedemo)
+2020-05-04 13:47:00.784 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - The following profiles are active: dev
+2020-05-04 13:47:01.545 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3036 (http)
+2020-05-04 13:47:01.546 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3036"]
+2020-05-04 13:47:01.546 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-04 13:47:01.546 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-04 13:47:01.547 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-04 13:47:01.547 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-04 13:47:01.547 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-04 13:47:01.547 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-04 13:47:01.548 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-04 13:47:01.588 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-04 13:47:01.589 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 802 ms
+2020-05-04 13:47:02.054 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 13:47:02.119 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 13:47:02.133 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-04 13:47:02.211 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-04 13:47:02.211 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-04 13:47:02.218 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-04 13:47:02.249 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3036"]
+2020-05-04 13:47:02.259 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3036 (http) with context path ''
+2020-05-04 13:47:02.259 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Started BasedemoApplication in 1.514 seconds (JVM running for 7984.935)
+2020-05-04 13:47:02.261 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-04 14:09:49.814 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Starting BasedemoApplication on LAPTOP-AJFJDPFB with PID 38232 (H:\代码备份\basedemo\target\classes started by Chkl in H:\代码备份\basedemo)
+2020-05-04 14:09:49.816 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - The following profiles are active: dev
+2020-05-04 14:09:49.861 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-04 14:09:49.861 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-04 14:09:51.427 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3036 (http)
+2020-05-04 14:09:51.437 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3036"]
+2020-05-04 14:09:51.437 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-04 14:09:51.438 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-04 14:09:51.440 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-04 14:09:51.440 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-04 14:09:51.440 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-04 14:09:51.440 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-04 14:09:52.500 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-04 14:09:52.651 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-04 14:09:52.652 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2790 ms
+2020-05-04 14:09:53.822 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 14:09:53.910 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 14:09:53.934 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-04 14:09:54.102 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-04 14:09:54.115 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-04 14:09:54.146 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-04 14:09:54.347 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3036"]
+2020-05-04 14:09:54.374 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3036 (http) with context path ''
+2020-05-04 14:09:54.377 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Started BasedemoApplication in 5.173 seconds (JVM running for 6.344)
+2020-05-04 14:10:08.801 [http-nio-3036-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-04 14:10:08.802 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-04 14:10:08.808 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-05-04 14:10:24.152 [http-nio-3036-exec-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-04 14:10:50.228 [http-nio-3036-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.ClassCastException: com.example.basedemo.entity.vo.UserVo cannot be cast to com.example.basedemo.entity.po.TnUserInfoPo]
+2020-05-04 14:10:53.133 [http-nio-3036-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.ClassCastException: com.example.basedemo.entity.vo.UserVo cannot be cast to com.example.basedemo.entity.po.TnUserInfoPo]
+2020-05-04 14:13:29.805 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Starting BasedemoApplication on LAPTOP-AJFJDPFB with PID 40316 (H:\代码备份\basedemo\target\classes started by Chkl in H:\代码备份\basedemo)
+2020-05-04 14:13:29.815 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - The following profiles are active: dev
+2020-05-04 14:13:30.186 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-04 14:13:30.186 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-04 14:13:31.999 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3036 (http)
+2020-05-04 14:13:32.007 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3036"]
+2020-05-04 14:13:32.007 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-04 14:13:32.007 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-04 14:13:32.011 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-04 14:13:32.011 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-04 14:13:32.012 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-04 14:13:32.012 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-04 14:13:33.085 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-04 14:13:33.269 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-04 14:13:33.269 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3082 ms
+2020-05-04 14:13:34.553 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 14:13:34.651 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 14:13:34.678 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-04 14:13:34.854 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-04 14:13:34.868 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-04 14:13:34.903 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-04 14:13:35.055 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3036"]
+2020-05-04 14:13:35.085 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3036 (http) with context path ''
+2020-05-04 14:13:35.088 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Started BasedemoApplication in 5.812 seconds (JVM running for 7.13)
+2020-05-04 14:13:43.055 [http-nio-3036-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-04 14:13:43.055 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-04 14:13:43.066 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-05-04 14:13:43.148 [http-nio-3036-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-04 14:22:34.606 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Starting BasedemoApplication on LAPTOP-AJFJDPFB with PID 18768 (H:\代码备份\basedemo\target\classes started by Chkl in H:\代码备份\basedemo)
+2020-05-04 14:22:34.609 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - The following profiles are active: dev
+2020-05-04 14:22:34.754 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-04 14:22:34.754 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-04 14:22:36.442 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3036 (http)
+2020-05-04 14:22:36.451 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3036"]
+2020-05-04 14:22:36.452 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-04 14:22:36.452 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-04 14:22:36.454 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-04 14:22:36.454 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-04 14:22:36.454 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-04 14:22:36.454 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-04 14:22:37.522 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-04 14:22:37.669 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-04 14:22:37.670 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2916 ms
+2020-05-04 14:22:38.989 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 14:22:39.082 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 14:22:39.107 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-04 14:22:39.258 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-04 14:22:39.270 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-04 14:22:39.306 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-04 14:22:39.479 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3036"]
+2020-05-04 14:22:39.507 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3036 (http) with context path ''
+2020-05-04 14:22:39.510 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Started BasedemoApplication in 5.57 seconds (JVM running for 6.834)
+2020-05-04 14:22:39.748 [http-nio-3036-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-04 14:22:39.748 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-04 14:22:39.760 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-05-04 14:23:49.897 [http-nio-3036-exec-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-04 14:29:16.520 [http-nio-3036-exec-2] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-04 14:29:24.594 [http-nio-3036-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.example.basedemo.error.BusinessException]
+2020-05-04 14:30:39.764 [http-nio-3036-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'password' is not present]
+2020-05-04 14:48:20.499 [main] INFO  com.example.basedemo.BasedemoApplicationTests - Starting BasedemoApplicationTests on LAPTOP-AJFJDPFB with PID 17300 (started by Chkl in H:\���뱸��\basedemo)
+2020-05-04 14:48:20.501 [main] INFO  com.example.basedemo.BasedemoApplicationTests - The following profiles are active: dev
+2020-05-04 14:48:23.500 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 14:48:23.835 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 14:48:24.277 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-04 14:48:24.301 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-04 14:48:24.350 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-04 14:48:24.559 [main] INFO  com.example.basedemo.BasedemoApplicationTests - Started BasedemoApplicationTests in 4.664 seconds (JVM running for 6.359)
+2020-05-04 14:48:25.050 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-04 15:09:42.720 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Starting BasedemoApplication on LAPTOP-AJFJDPFB with PID 19012 (H:\代码备份\basedemo\target\classes started by Chkl in H:\代码备份\basedemo)
+2020-05-04 15:09:42.765 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - The following profiles are active: dev
+2020-05-04 15:09:42.925 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-04 15:09:42.926 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-04 15:09:44.626 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3036 (http)
+2020-05-04 15:09:44.634 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3036"]
+2020-05-04 15:09:44.634 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-04 15:09:44.634 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-04 15:09:44.637 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-04 15:09:44.638 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-04 15:09:44.638 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-04 15:09:44.638 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-04 15:09:45.706 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-04 15:09:45.845 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-04 15:09:45.846 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2920 ms
+2020-05-04 15:09:46.979 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 15:09:47.071 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 15:09:47.096 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-04 15:09:47.240 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-04 15:09:47.250 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-04 15:09:47.287 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-04 15:09:47.442 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3036"]
+2020-05-04 15:09:47.469 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3036 (http) with context path ''
+2020-05-04 15:09:47.473 [restartedMain] INFO  com.example.basedemo.BasedemoApplication - Started BasedemoApplication in 5.357 seconds (JVM running for 7.059)
+2020-05-04 15:10:01.861 [http-nio-3036-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-04 15:10:01.862 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-04 15:10:01.870 [http-nio-3036-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-05-04 15:10:01.989 [http-nio-3036-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-04 15:11:04.169 [http-nio-3036-exec-7] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-04 15:11:37.298 [http-nio-3036-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.example.basedemo.error.BusinessException]
+2020-05-04 15:11:38.974 [http-nio-3036-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.example.basedemo.error.BusinessException]

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.basedemo.dao.TnUserInfoDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.basedemo.entity.po.TnUserInfoPo">
+        <id column="USER_CODE" property="userCode" />
+        <result column="USER_NAME" property="userName" />
+        <result column="UNIT_CODE" property="unitCode" />
+        <result column="ChineseName" property="ChineseName" />
+        <result column="PASSWORD" property="password" />
+        <result column="CREATE_TIME" property="createTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        USER_CODE, USER_NAME, UNIT_CODE, ChineseName, PASSWORD, CREATE_TIME
+    </sql>
+
+
+
+    <!--自定义结果集-->
+    <resultMap id="MyResultMap" type="com.example.basedemo.entity.vo.UserVo">
+        <id column="USER_CODE" property="userCode" />
+        <result column="USER_NAME" property="userName" />
+        <result column="UNIT_CODE" property="unitCode" />
+        <result column="unitName" property="unitName" />
+        <result column="ChineseName" property="ChineseName" />
+        <result column="CREATE_TIME" property="createTime" />
+    </resultMap>
+
+    <select id="getUser" resultMap="MyResultMap">
+        SELECT
+            u.USER_CODE,
+            u.USER_NAME,
+            u.ChineseName,
+            u.UNIT_CODE,
+            unit.NAME unitName,
+            u.CREATE_TIME
+        FROM
+          `tn_user_info` u
+        LEFT JOIN tn_unit unit ON unit.UNIT_CODE = u.UNIT_CODE
+        WHERE u.USER_CODE = #{userCode}
+    </select>
+    <select id="getUserByPage" resultMap="MyResultMap">
+        SELECT
+            u.USER_CODE,
+            u.USER_NAME,
+            u.ChineseName,
+            u.UNIT_CODE,
+            unit.NAME unitName,
+            u.CREATE_TIME
+        FROM
+          `tn_user_info` u
+        LEFT JOIN tn_unit unit ON unit.UNIT_CODE = u.UNIT_CODE
+    </select>
+
+</mapper>
